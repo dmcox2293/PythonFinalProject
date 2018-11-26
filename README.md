@@ -1,2 +1,9 @@
 # PythonFinalProject
-Final project for the Python 3200k class 2018
+This repository is for storing my Python 3200k final project. 
+
+## Subsection
+Things.
+
+### Subsubsection
+More detailed things.
+
