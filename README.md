@@ -14,5 +14,6 @@ The ninth and tenth commits were a trial and error code run to take the now spat
 My last commits included editing the readme file, updating the gitignore file, and committing my finished .mxd file to my repository. 
 
 ### Problems 
+The first problem I encountered was where to start. I was under the impression that to 
 
 #### Results
