@@ -3,17 +3,30 @@ This repository is for storing my Python 3200k final project, which is to create
 
 ## Workflow
 In my first commit, I created the gitignore file.
+
 In my second commit, I added the arcpy and os modules.
+
 Instead of writing my script in ArcMap, I composed it in the python shell so I could test my code without worrying about the program crashing.
-My third commit is where I created a file geodatabase for all of my data. I found out later in the coding process that I did not actually need a file geodatabase to complete this project, rendering that particular line of script essentially useless. 
+
+My third commit is where I created a file geodatabase for all of my data. I found out later in the coding process that I did not actually need a file geodatabase to complete this project, rendering that particular line of script essentially useless.
+
 My fourth commit consisted of taking the data I needed and creating layer files from the shapefiles I had. The map I was creating is simple, but the script makes the idea of creating maps even easier.
+
 Once I had created the layers, my fifth commit showed the intersection of the two layers I had created.
+
 After intersecting, my sixth and seventh commits consisted of copying the features into a shapefile format. This commit took two attempts because the first commit didn't do what I needed.
+
 My eighth commit allowed me to spatially join my two topic layers together.
-The ninth and tenth commits were a trial and error code run to take the now spatially joined layers and plot the points in their correct county locations. 
+
+The ninth and tenth commits were a trial and error code run to take the now spatially joined layers and plot the points in their correct county locations.
+
 My last commits included editing the readme file, updating the gitignore file, and committing my finished .mxd file to my repository. 
 
 ### Problems 
-The first problem I encountered was where to start. I was under the impression that to create a map using python script, I had to use the python tool within ArcMap. What I realized is that even if the correct code is written in ArcMap's python shell, it will not necessarily run in the Python command line, making it impossible to cmmit the required documents. Instead, I wrote all of my code within the Python IDLE Shell and then tested it in ArcMap. With this method, every line of code worked.  
+The first problem I encountered was where to start. I was under the impression that to create a map using python script, I had to use the python tool within ArcMap. What I realized is that even if the correct code is written in ArcMap's python shell, it will not necessarily run in the Python command line, making it impossible to cmmit the required documents. Instead, I wrote all of my code within the Python IDLE Shell and then tested it in ArcMap. With this method, every line of code worked and created the map as I had intended.
+
+The only other problem I ran into centered around using git language to make commits. I made a few commits that weren't exactly necessary and din't really serve much purpose in my trying to figure out the best way complete this project. One mistake that took a long time to fix was that I acidentally created a seconf folder and in doing so created a second file. When I commited that file, I thought it was the original, not the copy, so whenever I tried to edit the original and commit it, I was actually trying to commit the copy file, which I had not been editing. Once I discovered what was going on, I was able to fix the problem and continue with the project. 
 
 #### Results
+
+
