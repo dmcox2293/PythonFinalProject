@@ -24,11 +24,12 @@ The ninth and tenth commits were a trial and error code run to take the now spat
 
 My last commits included editing the readme file, updating the gitignore file, and committing my finished .mxd file to my repository. 
 
-### Problems 
+## Problems 
 The first problem I encountered was where to start. I was under the impression that to create a map using python script, I had to use the python tool within ArcMap. What I realized is that even if the correct code is written in ArcMap's python shell, it will not necessarily run in the Python command line, making it impossible to cmmit the required documents. Instead, I wrote all of my code within the Python IDLE Shell and then tested it in ArcMap. With this method, every line of code worked and created the map as I had intended.
 
 The only other problem I ran into centered around using git language to make commits. I made a few commits that weren't exactly necessary and din't really serve much purpose in my trying to figure out the best way complete this project. One mistake that took a long time to fix was that I acidentally created a seconf folder and in doing so created a second file. When I commited that file, I thought it was the original, not the copy, so whenever I tried to edit the original and commit it, I was actually trying to commit the copy file, which I had not been editing. Once I discovered what was going on, I was able to fix the problem and continue with the project. 
 
-#### Results
+## Results
+My results were as I expected them to be. The script set up my workspace environment and tyen allowed me to create an output folder to store all of my data that was created later in the project. I then used the script to take the Metro Atlanta Counties shapefile and turn it into a layer file, then continued to do the same with the Correctional Facilities points. Next I created a geodatabase which it turns out I didn't need, but since the database was already created, I left it in the project to facilitate any additions that maybe added to the map later and would be best stored in the geodatabase. I then made both the Metro Atlanta counties and the Correctional Facility points into feature layers so that I could intersect them. Once they were intersected, I copied the features to a shapefile and then used that shapefile to spatially join my two feature layers. With the two feature layers joined, I was able to create a map that showed the Facility points placed in their correct county locations all with a shared attribute table that states the name of the facility and the counties they are located in.  
 
 
