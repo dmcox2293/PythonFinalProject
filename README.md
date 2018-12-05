@@ -14,6 +14,6 @@ The ninth and tenth commits were a trial and error code run to take the now spat
 My last commits included editing the readme file, updating the gitignore file, and committing my finished .mxd file to my repository. 
 
 ### Problems 
-The first problem I encountered was where to start. I was under the impression that to 
+The first problem I encountered was where to start. I was under the impression that to create a map using python script, I had to use the python tool within ArcMap. What I realized is that even if the correct code is written in ArcMap's python shell, it will not necessarily run in the Python command line, making it impossible to cmmit the required documents. Instead, I wrote all of my code within the Python IDLE Shell and then tested it in ArcMap. With this method, every line of code worked.  
 
 #### Results
